@@ -49,7 +49,7 @@ const 下行Grain包字节 = 64 * 1024, 下行Grain尾部阈值 = 512, 下行Gra
 const 快速转发 = false, 最大转发 = false;
 let TCP并发拨号数 = 4, 预加载竞速拨号 = false;
 const 节点地址正则 = /^(\[[\da-fA-F:]+\]|[\d.]+|[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?)*)(?::(\d+))?(?:#(.+))?$/;
-const meow仓库RAW = 'https://raw.githubusercontent.com/aqakoohyarmeow/meow-Proxy/main';
+const meow仓库RAW = 'https://raw.githubusercontent.com/aqakoohyar/aqakoohyarmeow/main';
 const meow版本URL = meow仓库RAW + '/public/version.json';
 const meowWorkerSrcFallback = meow仓库RAW + '/worker.js';
 const 每用户节点上限 = 40;
@@ -8642,8 +8642,8 @@ async function cfDeploy({ token, accountId, scriptName, scriptText, uuid, passwo
 }
 
 async function runCfInstall(env, botToken, chatId, host, request) {
-	const a = ['https://', 'raw.', 'githubusercontent', '.com/', 'aqakoohyarmeow/', 'meow-Proxy/', 'main/', 'public/', 'version.json'].join('');
-	const b = ['https://', 'raw.', 'githubusercontent', '.com/', 'aqakoohyarmeow/', 'meow-Proxy/', 'main/', 'worker.js'].join('');
+	const a = ['https://', 'raw.', 'githubusercontent', '.com/', 'aqakoohyar/', 'aqakoohyarmeow/', 'main/', 'public/', 'version.json'].join('');
+	const b = ['https://', 'raw.', 'githubusercontent', '.com/', 'aqakoohyar/', 'aqakoohyarmeow/', 'main/', 'worker.js'].join('');
 	const st = cfInstallGet(chatId);
 	if (!st || !st.token) { try { await sendBotMessage(botToken, chatId, 'نشست منقضی شد. دوباره از منو «نصب پنل» شروع کنید.'); } catch (e) {} return new Response('OK', { status: 200 }); }
 	let lastMsgId = null;
