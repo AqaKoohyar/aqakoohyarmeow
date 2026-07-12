@@ -18,6 +18,6 @@
   ],
   "vars": {
     "ENABLE_CRON": "false",
-    "PAGES_URL": "https://raw.githubusercontent.com/aqakoohyarmeow/meow-Proxy/main/public"
+    "PAGES_URL": "https://raw.githubusercontent.com/aqakoohyar/aqakoohyarmeow/main/public"
   }
 }
