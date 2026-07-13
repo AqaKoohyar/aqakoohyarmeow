@@ -12,7 +12,7 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "meow-proxy-db",
+      "database_name": "aqakoohyarmeow-db",
       "database_id": "placeholder-cloudflare-will-replace-this"
     }
   ],
