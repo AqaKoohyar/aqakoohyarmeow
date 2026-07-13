@@ -1,5 +1,5 @@
 {
-  "name": "meow-proxy",
+  "name": "aqakoohyarmeow",
   "version": "3.5.3",
   "private": true,
   "description": "meow Proxy — all-in-one VLESS/Trojan/Shadowsocks proxy panel on a Cloudflare Worker (D1, users, Telegram bot, WARP, optional backend mode).",
